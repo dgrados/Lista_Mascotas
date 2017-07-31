@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Mascotas</string>
     <string name="app_titulo">Petagram</string>
+    <string name="app_ranking">5</string>
 </resources>

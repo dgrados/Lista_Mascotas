@@ -7,9 +7,9 @@ package es.esy.sisgrados.mascotas;
 public class Mascotas {
     private int foto;
     private String nombre;
-    private int ranking;
+    private String ranking;
 
-    public Mascotas(String nombre, int foto,int ranking) {
+    public Mascotas(String nombre, int foto,String ranking) {
         this.nombre = nombre;
         this.foto = foto;
         this.ranking=ranking;
@@ -31,11 +31,11 @@ public class Mascotas {
         this.foto = foto;
     }
 
-    public int getRanking() {
+    public String getRanking() {
         return ranking;
     }
 
-    public void setRanking(int ranking) {
+    public void setRanking(String ranking) {
         this.ranking = ranking;
     }
 

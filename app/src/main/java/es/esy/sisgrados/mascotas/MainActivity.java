@@ -42,16 +42,16 @@ public class MainActivity extends AppCompatActivity {
     public void InicializarListaContacto(){
 
         mascotas=new ArrayList<Mascotas>();
-        mascotas.add(new Mascotas("Balto",R.drawable.baltito,5));
-        mascotas.add(new Mascotas("Firulais",R.drawable.dog_2,5));
-        mascotas.add(new Mascotas("Chiki",R.drawable.dog_3,4));
-        mascotas.add(new Mascotas("Doki",R.drawable.dog_4,5));
-        mascotas.add(new Mascotas("Rocky",R.drawable.dog_5,2));
-        mascotas.add(new Mascotas("Cira",R.drawable.dog_6,5));
-        mascotas.add(new Mascotas("Peluchin",R.drawable.dog_7,1));
-        mascotas.add(new Mascotas("Skiper",R.drawable.dog_8,5));
-        mascotas.add(new Mascotas("Oso",R.drawable.dog_9,2));
-        mascotas.add(new Mascotas("Kala",R.drawable.dog_10,3));
+        mascotas.add(new Mascotas("Balto",R.drawable.baltito,"5"));
+        mascotas.add(new Mascotas("Firulais",R.drawable.dog_2,"5"));
+        mascotas.add(new Mascotas("Chiki",R.drawable.dog_3,"4"));
+        mascotas.add(new Mascotas("Doki",R.drawable.dog_4,"5"));
+        mascotas.add(new Mascotas("Rocky",R.drawable.dog_5,"2"));
+        mascotas.add(new Mascotas("Cira",R.drawable.dog_6,"5"));
+        mascotas.add(new Mascotas("Peluchin",R.drawable.dog_7,"1"));
+        mascotas.add(new Mascotas("Skiper",R.drawable.dog_8,"5"));
+        mascotas.add(new Mascotas("Oso",R.drawable.dog_9,"2"));
+        mascotas.add(new Mascotas("Kala",R.drawable.dog_10,"3"));
     }
 
     @Override

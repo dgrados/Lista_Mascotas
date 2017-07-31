@@ -38,6 +38,7 @@ public class MascotasAdaptador extends RecyclerView.Adapter<MascotasAdaptador.Ma
         final Mascotas mascota=mascotas.get(position);
         MascotasViewHolder.imgFoto.setImageResource(mascota.getFoto());
         MascotasViewHolder.tvNombreCV.setText(mascota.getNombre());
+        MascotasViewHolder.tvNumero.setText(mascota.getRanking());
 
         MascotasViewHolder.imgFoto.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -64,12 +65,14 @@ public class MascotasAdaptador extends RecyclerView.Adapter<MascotasAdaptador.Ma
         private ImageView imgFoto;
         private TextView tvNombreCV;
         private ImageButton btn_hueso;
+        private TextView tvNumero;
 
         public MascotasViewHolder(View itemView) {
             super(itemView);
             imgFoto =(ImageView)itemView.findViewById(R.id.imgFoto);
             tvNombreCV=(TextView)itemView.findViewById(R.id.tvNombreCV);
             btn_hueso=(ImageButton)itemView.findViewById(R.id.btn_hueso);
+            tvNumero=(TextView)itemView.findViewById(R.id.tvNumero);
         }
     }
 

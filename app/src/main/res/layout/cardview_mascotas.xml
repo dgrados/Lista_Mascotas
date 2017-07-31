@@ -74,7 +74,7 @@
                     android:id="@+id/tvNumero"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5"
+                    android:text="@string/app_ranking"
                     android:textSize="@dimen/nombre_cardview"
                     android:textStyle="bold"
                     />
