@@ -35,11 +35,11 @@ public class favoritas extends AppCompatActivity {
     public void InicializarListaContacto(){
 
         mascotas=new ArrayList<Mascotas>();
-        mascotas.add(new Mascotas("Denisse Suárez Choy",R.drawable.baltito,5));
-        mascotas.add(new Mascotas("Diego Grados Alvarez",R.drawable.dog_2,5));
-        mascotas.add(new Mascotas("Brandon Grados Alvarez",R.drawable.dog_4,5));
-        mascotas.add(new Mascotas("Rodrigo Grados Alvarez",R.drawable.dog_6,5));
-        mascotas.add(new Mascotas("Maria Fernanda Grados Alvarez",R.drawable.dog_8,5));
+        mascotas.add(new Mascotas("Balto",R.drawable.baltito,"5"));
+        mascotas.add(new Mascotas("Firulais",R.drawable.dog_2,"5"));
+        mascotas.add(new Mascotas("Doki",R.drawable.dog_4,"5"));
+        mascotas.add(new Mascotas("Cira",R.drawable.dog_6,"5"));
+        mascotas.add(new Mascotas("Skiper",R.drawable.dog_8,"5"));
 
     }
     public MascotasAdaptador adaptador;
